@@ -38,3 +38,6 @@ jobs:
     - name: test with pytest
       run: |
         pytest app.py
+        # content of pytest.ini
+        [pytest]
+        python_files = *.py
